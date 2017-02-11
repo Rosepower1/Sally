@@ -1,0 +1,152 @@
+
+/*END OF CSS RESET*/
+
+body {
+ font: normal 16px/150% Helvetica, Arial, sans-serif;
+ padding: 40px;
+ max-width:1200px;
+
+}
+
+/*--------------------------- HEADER---------------------*/
+
+header {
+  background-color: teal;
+  margin: 0 auto;
+  text-align:center;
+  font-size: 23px;
+  padding: 12px 0 12px 0;
+  color: white;
+  letter-spacing: 3px;
+  border: 1px solid black;
+}
+
+
+header h1{
+  padding:  13px 0 13px 0;
+  margin: 0;
+}
+
+header h3 {
+  padding: 7px 0 7px 0;
+  margin:0;
+}
+
+
+address {
+  padding-top: 5px;
+  margin:0;
+}
+
+
+/*-------------------------------- Main----------------------*/
+
+main {
+  padding:100px 170px 100px 170px;
+  border: 1px solid black;
+  background: linear-gradient(#8FBC8F, #EEE8AA);
+  font-size: 20px;
+}
+
+#section_wrap {
+    max-width: 1200px;
+}
+
+
+li {
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+
+a {
+  color: darkgreen;
+}
+
+
+.employment {
+  display:inline-block;
+  width: 47%;
+  vertical-align:top;
+}
+
+.employment h1 {
+  padding-bottom: 15px;
+}
+
+.education {
+  display:inline-block;
+  width: 47%
+
+}
+
+.education p {
+  margin: 4px 0 4px 0;
+}
+
+.employment h3 {
+ margin: 3px;
+ font-size: 22px;
+}
+
+ h1 {
+  margin: 0 0 8px 0;
+}
+
+
+.employment h3, p {
+ margin-left: 15px;
+  padding-bottom: 8px;
+}
+
+
+dl {
+ display: inline-block;
+  width: 70%;
+  margin-right: 10px;
+  margin-bottom: 70px;
+  overflow: hidden;
+}
+
+dt {
+  float: left;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+dd {
+  height: 122px;
+  margin-left: 30px;
+  overflow:hidden;
+  padding: 0;
+}
+
+
+dt {
+  float: left;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+dt img {
+  display: block;
+  width: 119px;
+  height: 119px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;}
+
+dd {
+  height: 122px;
+  margin-left: 30px;
+  overflow:hidden;
+}
+
+dl p {
+  margin: 0;
+  padding: 5px 0 0 0;
+}
+
+dl h2 {
+  margin-bottom: 4px;
+}
